@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import RPSButton from '../components/RPSButton';
+import RPSButton from './components/RPSButton';
 
 const RockPaperScissor = () => {
   const [userChoice, setUserChoice] = useState('');
