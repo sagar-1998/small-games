@@ -3,12 +3,14 @@
 import React from 'react';
 import RockPaperScissor from './mini-games/RockPaperScissor/RockPaperScissor';
 import MemoryGame from './mini-games/MemoryGame';
+import WackAMole from './mini-games/Wack-a-mole';
 
 const Games = () => {
   return (
-    <div>
+    <div className="flex justify-center items-center">
       {/* <RockPaperScissor /> */}
-      <MemoryGame />
+      {/* <MemoryGame /> */}
+      <WackAMole />
     </div>
   );
 };
